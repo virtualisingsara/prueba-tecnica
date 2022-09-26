@@ -1,0 +1,129 @@
+.container {
+    height: 190vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+.column {
+    width: 100%;
+}
+.section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.sectionTitle {
+    color: #ff4e46;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: Montserrat, serif;
+}
+.sectionSubtitle {
+    font-size: 180%;
+    font-family: Playfair Display Black, serif;
+}
+.offsetBorder {
+    position: relative;
+}
+.offsetBorder::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform: translate(18px, 25px);
+    width: 95%;
+    height: 15px;
+    background-color: #00e787;
+}
+.textDiv {
+    margin-top: 4%;
+}
+.text {
+    font-family: Montserrat, serif;
+    font-size: small;
+}
+.picture {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 2%;
+    border-bottom-width: 30px;
+    border-bottom-color: #017eff;
+    border-bottom-style: solid;
+}
+.picture:first-of-type {
+    border-bottom-color: #00e787;
+    border-bottom-left-radius: -50px;
+}
+.picture:last-of-type {
+    border-bottom-color: #ff4e44;
+}
+
+@media only screen and (min-width: 768px) {
+
+.container {
+    height: 45vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+.column {
+    float: left;
+    width: 45%;
+}
+.column:last-of-type {
+    float: left;
+    width: 55%;
+}
+.section {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.sectionTitle {
+    color: #ff4e46;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: Montserrat, serif;
+}
+.sectionSubtitle {
+    font-size: 200%;
+    font-family: Playfair Display Black, serif;
+}
+.offsetBorder {
+    position: relative;
+}
+.offsetBorder::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform: translate(18px, 25px);
+    width: 95%;
+    height: 15px;
+    background-color: #00e787;
+}
+.textDiv {
+    margin-top: 4%;
+}
+.text {
+    font-family: Montserrat, serif;
+    font-size: small;
+}
+.picture {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 2%;
+    border-bottom-width: 30px;
+    border-bottom-color: #ff4e44;
+    border-bottom-style: solid;
+}
+.picture:first-of-type {
+    border-bottom-color: #00e787;
+    border-bottom-left-radius: -50px;
+}
+.picture:last-of-type {
+    border-bottom-color: #017eff;
+}
+
+}

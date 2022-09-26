@@ -1,0 +1,50 @@
+.header {
+    width: 90%;
+    background-color: #fbf3f0;
+    margin: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%
+  }
+.logoDiv{
+    width: 25%;
+    float: left;
+  }
+.logo{
+    width: 60%;
+}
+.nav{
+    width: 70%;
+    font-size: 80%;
+    float: right;
+    font-family: Montserrat, serif;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {
+
+.header {
+    background-color: #fbf3f0;
+    margin: none;   
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%
+  }
+.logoDiv{
+    width: 25%;
+    float: left;
+  }
+.logo{
+    width: 60%;
+}
+.nav{
+    float: right;
+    width: 70%;
+    font-family: Montserrat, serif;
+    text-align: right;
+}
+}

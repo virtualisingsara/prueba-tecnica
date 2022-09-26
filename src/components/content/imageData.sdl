@@ -1,0 +1,16 @@
+query {
+    data(id: {eq: $Id}) {
+        title
+        body
+        author
+        avatar {
+            childImageSharp {
+                gatsbyImageData(
+                    width: 200
+                    placeholder: pic1
+                    formats: [AUTO, WEBP, AVIF]
+                )
+            }
+        }
+    }
+}
